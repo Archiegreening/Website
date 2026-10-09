@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" class="work-document" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111514">
+  <meta name="description" content="Explore four Bengal Studios projects: a cyberpunk city, retro console, low-poly car, and more.">
+  <title>Selected Work — Bengal Studios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="work-page">
+  <header class="site-header">
+    <div class="brand">
+      <a class="brand-icon" href="index.html" aria-label="Bengal Studios home"><img src="bengal-studios-logo.png" alt=""></a>
+      <span class="brand-copy"><a class="brand-name" href="index.html">Bengal Studios</a><a class="brand-email" href="mailto:your.email@example.com">your.email@example.com</a></span>
+    </div>
+    <nav class="header-nav" aria-label="Main navigation">
+      <a href="work.html" aria-current="page">Work <span>04</span></a>
+      <a class="about-nav-link" href="index.html#about">About</a>
+      <form class="command-bar" data-command-form role="group" aria-label="Site command bar. Type font, colour, or reset and press Enter." title='Commands: "font" changes the font, "colour" activates rainbow colours, and "reset" restores the default font and colours.'>
+        <label class="command-prompt" for="work-command">›</label>
+        <input id="work-command" data-command-input type="text" placeholder="command" aria-label="Enter a site command" title='Commands: "font", "colour", or "reset".' autocomplete="off" autocapitalize="off" spellcheck="false">
+        <button type="submit">RUN</button>
+        <span class="command-status" data-command-status role="status" aria-live="polite"></span>
+      </form>
+      <span class="visit-counter" title="Visits counted in this browser"><span>VISITS</span> <strong data-visit-count>—</strong></span>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to light theme" aria-pressed="false"><span aria-hidden="true">☼</span><span class="theme-label">Light</span></button>
+    </nav>
+  </header>
+
+  <main class="project-scroll" id="projects" aria-label="Selected work">
+    <article class="work-project" id="cyberpunk-city" data-project>
+      <div class="project-panel-copy">
+        <p class="eyebrow"><span class="live-dot"></span> PROJECT 01 <span class="eyebrow-divider">/</span> ENVIRONMENT</p>
+        <h1>Cyberpunk<br><span>city.</span></h1>
+        <p>A neon-soaked city after dark. Low-poly shapes, tiny details, and a world waiting around every corner.</p>
+        <a class="project-open-link" href="project-building.html">EXPLORE PROJECT <span aria-hidden="true">↗</span></a>
+        <span class="project-count">01 <i>/</i> 04</span>
+      </div>
+      <a class="project-panel-art" href="project-building.html" aria-label="Explore the Cyberpunk city project"><img src="cyberpunk-city-cover.png" alt="A detailed pastel low-poly cyberpunk city render"><span class="panel-art-hint">VIEW PROJECT <span aria-hidden="true">↗</span></span></a>
+      <a class="panel-scroll" href="#retro-console"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span></a>
+    </article>
+
+    <article class="work-project" id="retro-console" data-project>
+      <div class="project-panel-copy">
+        <p class="eyebrow"><span class="live-dot"></span> PROJECT 02 <span class="eyebrow-divider">/</span> PRODUCT STUDY</p>
+        <h2>Retro<br><span>console.</span></h2>
+        <p>A familiar console, reimagined in soft shapes and warm materials. A little nostalgia, rendered by hand.</p>
+        <a class="project-open-link" href="project-console.html">EXPLORE PROJECT <span aria-hidden="true">↗</span></a>
+        <span class="project-count">02 <i>/</i> 04</span>
+      </div>
+      <a class="project-panel-art" href="project-console.html" aria-label="Explore the Retro console project"><img src="retro-console.svg" alt="Isometric retro video game console and controllers"><span class="panel-art-hint">VIEW PROJECT <span aria-hidden="true">↗</span></span></a>
+      <a class="panel-scroll" href="#car"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span></a>
+    </article>
+
+    <article class="work-project" id="car" data-project>
+      <div class="project-panel-copy">
+        <p class="eyebrow"><span class="live-dot"></span> PROJECT 03 <span class="eyebrow-divider">/</span> FORM STUDY</p>
+        <h2>Low-poly<br><span>car.</span></h2>
+        <p>A playful study in simple geometry, crisp reflections, and the details that give a classic car its character.</p>
+        <span class="project-status"><span class="live-dot"></span> WORK IN PROGRESS</span>
+        <span class="project-count">03 <i>/</i> 04</span>
+      </div>
+      <div class="project-panel-art"><img src="car-study.svg" alt="A low-poly retro sports car in a turquoise studio"><span class="panel-art-hint">WORK IN PROGRESS</span></div>
+      <a class="panel-scroll" href="#coming-soon"><span>SCROLL TO EXPLORE</span><span aria-hidden="true">↓</span></a>
+    </article>
+
+    <article class="work-project coming-project" id="coming-soon" data-project>
+      <div class="project-panel-copy">
+        <p class="eyebrow"><span class="live-dot"></span> PROJECT 04 <span class="eyebrow-divider">/</span> IN THE MAKING</p>
+        <h2>Coming<br><span>soon.</span></h2>
+        <p>One more little world is on its way. Check back soon to see what’s next.</p>
+        <a class="project-open-link" href="mailto:your.email@example.com">ASK ME WHAT’S NEXT <span aria-hidden="true">↗</span></a>
+        <span class="project-count">04 <i>/</i> 04</span>
+      </div>
+      <div class="project-panel-art"><img src="project-placeholder-04.svg" alt="An abstract architectural scene hinting at a future project"><span class="panel-art-hint">SOMETHING NEW IS TAKING SHAPE</span></div>
+      <a class="panel-scroll back-to-home" href="index.html"><span>BACK TO THE BEGINNING</span><span aria-hidden="true">↑</span></a>
+    </article>
+  </main>
+
+  <nav class="project-pagination" aria-label="Jump to project">
+    <a href="#cyberpunk-city" aria-label="Project 1: Cyberpunk city" aria-current="location">01</a>
+    <a href="#retro-console" aria-label="Project 2: Retro console">02</a>
+    <a href="#car" aria-label="Project 3: Low-poly car">03</a>
+    <a href="#coming-soon" aria-label="Project 4: Coming soon">04</a>
+  </nav>
+
+</body>
+</html>
